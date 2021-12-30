@@ -4,8 +4,10 @@
   }
 
   .main {
-    padding-top: 24px;
     background-size: 864px auto;
+  }
+  .main .container {
+    padding-top: 24px;
   }
 
   .logo {
@@ -156,6 +158,11 @@
     margin-right: 180px;
     margin-top: -76px;
   }
+
+  .main__signature {
+    left: 0;
+    right: auto;
+  }
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -194,6 +201,10 @@
   }
   .header__btn-1 span {
     margin-left: 6px;
+  }
+
+  .header__btn-2 {
+    font-size: 16px;
   }
 
   .header__btn-2 {
@@ -240,15 +251,15 @@
   }
 
   footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .footer__login {
     display: block;
     text-align: center;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   .footer__login-title {
@@ -274,7 +285,7 @@
   }
 
   .footer__logos {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 100%;
   }
   .footer__logos a {

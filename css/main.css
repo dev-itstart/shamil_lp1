@@ -115,8 +115,17 @@ label {
 }
 
 .main {
-  padding-top: 36px;
   background: url(../img/main-bg.png) #393683 right bottom no-repeat;
+}
+.main .container {
+  min-height: calc(100vh - 52px);
+  padding-top: 36px;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+}
+
+header {
+  width: 100%;
 }
 
 .logo {
@@ -158,6 +167,7 @@ label {
   border: 1px solid #FFC42E;
   background: #FFC42E;
   color: #393683;
+  font-size: 18px;
   border-radius: 4px;
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
@@ -173,6 +183,7 @@ label {
   align-items: flex-end;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  width: 100%;
 }
 
 .main__info {
@@ -412,6 +423,7 @@ label {
   font-weight: 800;
   position: relative;
   z-index: 2;
+  font-family: "Montserrat", sans-serif;
 }
 .btn:hover:before {
   background: #fff;
