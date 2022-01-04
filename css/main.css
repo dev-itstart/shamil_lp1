@@ -168,6 +168,7 @@ header {
   background: #FFC42E;
   color: #393683;
   font-size: 18px;
+  line-height: 22px;
   border-radius: 4px;
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
@@ -347,6 +348,7 @@ header {
 }
 .main__signature span {
   display: block;
+  text-transform: uppercase;
 }
 .main__signature span:nth-child(2) {
   opacity: 0.9;
@@ -417,6 +419,7 @@ header {
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   z-index: 1;
+  background: #393683;
 }
 .btn span {
   display: block;
